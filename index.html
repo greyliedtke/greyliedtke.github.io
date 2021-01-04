@@ -9,8 +9,6 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  {% block head %} {% endblock %}
 </head>
 <body>
 <!-- Edit navbar links... -->
@@ -29,29 +27,33 @@
           Quick Links
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="QwhizCards"> Qwhiz Cards </a>
-          <a class="dropdown-item" href="PoetryMain"> Poetry </a>
-          <a class="dropdown-item" href="GreyAreaHome"> About Grey Area </a>
+          <a class="dropdown-item" href="/AboutGrey"> About Grey </a>
+          <a class="dropdown-item" href="/"> 3d Prints </a>
+          <a class="dropdown-item" href="PoetryMain"> Engineering Experience </a>
+          <a class="dropdown-item" href="GreyAreaHome"> Coding Projects </a>
         </div>
       </li>
     </ul>
   </div>
-  {% if current_user.name is defined %}
-  {% set sign_text =  'Sign Out' %}
-  {% set sign_link = "UserLogout" %}
-  {% else %}
-  {% set sign_text =  'Sign In' %}
-  {% set sign_link = "UserLogin" %}
-  {% endif %}
-  <form class="form-inline my-2 my-lg-0" action={{sign_link}}>
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">{{sign_text}}</button>
-  </form>
 </nav>
 
-{% block body %} {% endblock %}
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="display-3"> the main main </h1>
+    <p> Cool I dig it </p>
+  </div>
+</div>
+<div class="container">
+  <h1></h1>
+  <h1> Grey Liedtke </h1>
+  <p class="lead"> Here I will have some descriptions </p>
 
-{% block script %}
-{% endblock %}
+  <h3> this will be more stuff </h3>
+  <p> this will be less stuff </p>
+
+
+
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
