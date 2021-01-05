@@ -1,56 +1,19 @@
 <!--Base html file for all pages. includes links to necessary source code and necessary navbar items...-->
 
 <!doctype html>
-<html lang="en">
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="jquery.js"></script>
+    <script>
+    $(function(){
+      $("#DivContent").load("nav_bar.html");
+    });
+    </script>
 </head>
 <body>
 <!-- Edit navbar links... -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">MGA</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Quick Links
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="/"> 3d Prints </a>
-          <a class="dropdown-item" href="PoetryMain"> Engineering Experience </a>
-          <a class="dropdown-item" href="GreyAreaHome"> Coding Projects </a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav>
+<div id="DivContent"></div>
 
-<div class="jumbotron">
-  <div class="container">
-    <h1 class="display-3"> the main main </h1>
-    <p> Cool I dig it </p>
-  </div>
-</div>
-<div class="container">
-  <h1></h1>
-  <h1> Grey Liedtke </h1>
-  <p class="lead"> Here I will have some descriptions </p>
-
-  <h3> this will be more stuff </h3>
-  <p> this will be less stuff </p>
-
-
+<p> hey hope this helps </p>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
