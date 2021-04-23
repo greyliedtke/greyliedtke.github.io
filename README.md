@@ -1,2 +1,3 @@
 # greyliedtke.github.io
-Grey Liedtke Personal Website Portfolio. Real site coming soon!
+Landing site of mygreyarea.com Undergoing maintenance to find a direction in life and 
+where I would like this site to go!
