@@ -110,7 +110,18 @@ class DC- Black;
 </li>
 </ul>
 <h2 id="examples">Examples</h2>
-<div class="mermaid"></div>
+<div class="mermaid">flowchart LR
+node_1(Grey)
+Cook(Yup)
+dot[*]
+node_1 -.&gt; dot
+
+subgraph Sub
+    direction LR
+    hey
+end
+
+</div>
         
         <script async type="text/javascript">
 /* From extension bierner.markdown-mermaid */
