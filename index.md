@@ -1,4 +1,5 @@
 # GreyGitWiki
+[Wiki](https://greyliedtke.github.io/)
 
 ## Index
 

@@ -2,4 +2,4 @@
 
 Github for Grey liedtke
 
-Mostly just references to simple code and issues I continually struggle with
+Mostly just references to simple code and resources I continually google

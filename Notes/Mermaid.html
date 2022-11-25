@@ -2,7 +2,7 @@
     <html>
     <head>
         <meta charset="UTF-8">
-        <title>GreyGitWiki</title>
+        <title>Mermaid</title>
         <style>
 /* From extension vscode.github */
 /*---------------------------------------------------------------------------------------------
@@ -78,26 +78,39 @@
         <span id="markdown-mermaid" aria-hidden="true"
                     data-dark-mode-theme="dark"
                     data-light-mode-theme="default"></span>
-                <h1 id="greygitwiki">GreyGitWiki</h1>
-<p><a href="https://greyliedtke.github.io/">Wiki</a></p>
-<h2 id="index">Index</h2>
-<h2 id="markdown">Markdown</h2>
-<p><a href="Markdown/Markdown.html">Wiki</a>
-A hub for storing all notes related to markdown</p>
-<h3 id="mermaid">Mermaid</h3>
-<h2 id="python">Python</h2>
+                <h1 id="mermaid">Mermaid</h1>
+<p>A minimal language for creating diagrams and such</p>
 <ul>
-<li>Matplotlib</li>
-<li>Python functions</li>
-</ul>
-<h2 id="environments">Environments</h2>
+<li>Diagrams with <a href="https://mermaid-js.github.io/mermaid/#/classDiagram?id=setting-the-direction-of-the-diagram">Mermaid</a>
 <ul>
-<li>Pi environments</li>
-<li>html</li>
-<li>random notes</li>
-<li></li>
+<li><a href="https://mermaid-js.github.io/mermaid/#/flowchart?id=links-between-nodes">Lines</a></li>
+<li><a href="https://dompl.medium.com/produce-great-looking-flowcharts-in-seconds-7f3bea64f2e2">Great Example</a></li>
+<li>linkStyle 1 stroke:#Red
+<ul>
+<li>Assign color to links</li>
 </ul>
-
+</li>
+<li>Node colors
+<ul>
+<li>
+<pre><code>%% Define classes
+classDef Red fill:Red;
+classDef Black fill:Black;
+</code></pre>
+</li>
+<li>
+<pre><code>%% Assigning styles to nodes
+class DC+ Red;
+class DC- Black;
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="examples">Examples</h2>
+<div class="mermaid"></div>
         
         <script async type="text/javascript">
 /* From extension bierner.markdown-mermaid */
