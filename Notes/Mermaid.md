@@ -17,3 +17,14 @@ A minimal language for creating diagrams and such
 
 ## Examples
 :::mermaid
+    flowchart LR
+    node_1(Grey)
+    Cook(Yup)
+    dot[*]
+    node_1 -.> dot
+
+    subgraph Sub
+        direction LR
+        hey
+    end
+:::
