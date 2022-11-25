@@ -1,24 +1,12 @@
 # GreyGitWiki
-[Wiki](https://greyliedtke.github.io/)
+[Grey Landing Wiki](https://greyliedtke.github.io/)
 
-## Index
+## Overview
+Creating a wiki to house notes I am constantly looking up
 
-## Markdown
-
-[Wiki](Markdown/Markdown.md)
-A hub for storing all notes related to markdown
-
-### Mermaid
-
-
-## Python
-
-- Matplotlib
-- Python functions
-
-## Environments
-
-- Pi environments
-- html
-- random notes
-- 
+## Notes
+- [Enivornment](Notes/Environments.md)
+- [Git](Notes/Git.md)
+- [Markdown](Notes/Markdown.md)
+- [Mermaid](Notes/Git.md)
+- [Raspberrry PI](Notes/RaspberryPi.md)
