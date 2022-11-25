@@ -4,6 +4,9 @@
 
 ## Markdown
 
+[Wiki](Markdown/Markdown.md)
+A hub for storing all notes related to markdown
+
 ### Mermaid
 
 
